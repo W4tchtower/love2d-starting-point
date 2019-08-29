@@ -33,9 +33,9 @@ end
 
 
 function love.draw()
-    lg.draw(
-
-    )
+    camera:set()
+    
+    camera:unset()
 end
 
 
