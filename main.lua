@@ -1,6 +1,9 @@
+lg = love.graphics
+
 require "entity"
 require "animation"
-lg = love.graphics
+require "camera"
+
 
 -- Key constants
 UP_KEY = 'w'
