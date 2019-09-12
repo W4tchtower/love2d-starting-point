@@ -1,10 +1,12 @@
--- I feel like this is self-explanatory
 function new_animation(_spritesheet, _frame_duration, _frames)
+
     local animation = {}
     animation.spritesheet = _spritesheet
+
     -- These two fields are used to determine the amount of time a frame is shown at a time
     animation.frame_duration = _frame_duration
     animation.timer = 0
+    
     -- These two are used to hold the current frame, and the list of all the frames, respectively.
     animation.current_frame = 1
     animation.frames = {}
